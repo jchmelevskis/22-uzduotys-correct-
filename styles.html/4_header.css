@@ -1,0 +1,69 @@
+.header_wrapper {
+  border-bottom: 1px solid #ebf0ff;
+}
+
+.container {
+  max-width: 343px;
+  height: 78px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+  color: #223263;
+  padding-top: 26px;
+}
+
+/* Dekstop */
+
+.dekstop__container {
+  max-width: 1500px;
+  height: 78px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meniu__link {
+  width: 880px;
+  height: 36px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+li {
+  list-style: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+}
+a:link {
+  text-decoration: none;
+  color: #22262a;
+}
+
+@media screen and (max-width: 768px) {
+  .dekstop__container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: none;
+  }
+}
